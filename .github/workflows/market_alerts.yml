@@ -3,7 +3,7 @@ name: NSE 5% Equities Alert
 on:
   schedule:
     # Runs at 10:05 UTC (3:35 PM IST), Monday through Friday
-    - cron: '5 10 * * 1-5'
+    - cron: '30 9 * * 1-5'
   workflow_dispatch: # Allows manual trigger anytime for testing
 
 jobs:
